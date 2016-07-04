@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>SeniorVu</title>
+</head>
+<body>
+
+<style>
+  .derp {
+    height: 1300px;
+    width: 100%;
+    background: red;
+    position: relative;
+  }
+
+  .serp {
+    float: left;
+    width: 300px;
+    height: 500px;
+    background: white;
+  }
+
+  .kerp {
+    float: left;
+    background: green;
+    width: 30%;
+    height: 100px;
+  }
+
+  .footer {
+    height: 1000px;
+    width: 100%;
+  }
+
+</style>
+
+
+<div class="derp">
+
+
+  <div class="serp">
+    dsf
+    fdsa
+    fad
+
+  </div>
+
+  <div class="kerp"></div>
+
+</div>
+
+<div class="footer"></div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.min.js"></script>
+
+<script>
+  $(window).load(function () {
+
+    var derp = floater($('.kerp'), $('.derp')).init()
+
+  })
+</script>
+
+</body>
+
+
+</html>
