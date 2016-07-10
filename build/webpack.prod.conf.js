@@ -12,6 +12,7 @@ module.exports = merge(baseConfig, {
   devtool: SOURCE_MAP ? '#source-map' : false,
   output: {
     // naming output files with hashes for better caching.
+    
     // dist/index.html will be auto-generated with correct URLs.
     filename: '[name].[chunkhash].js',
     chunkFilename: '[id].[chunkhash].js'
